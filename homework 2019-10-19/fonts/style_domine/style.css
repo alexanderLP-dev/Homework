@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Domine-Regular";
+  src: url("./fonts/Domine-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Domine-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Domine-Regular.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Domine-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Domine-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Domine-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Domine-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
