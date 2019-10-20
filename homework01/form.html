@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preview.html">Preview</a></li>
+            <li>Form</li>
+        </ul>
+    </nav>
+    <form action="action.php" name="myForm" method="POST">
+        <label for="name">User name: </label>
+        <input type="text" id="name" placeholder="Name" minlength="3" required autofocus><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" minlength="6" autocomplete="off" placeholder="Password" required>
+        <hr>
+        <label for="sex"></label><br>
+        Sex: <input name="sex" id="sex" type="radio" checked> Male
+        <input name="sex" type="radio"> Female
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" placeholder="Age" min="1" max="140"><br>
+        <label for="married">Married: </label>
+        <input type="checkbox" id="married">
+        <hr>
+        <label for="tel">Phone: </label>
+        <input type="tel" pattern="\D\d{1}\s\d{4}\s\d{3}\s\d{2}\s\d{2}" id="tel" placeholder="+x xxxx xxx xx xx"
+            maxlength="20" required><br>
+        <label for="city">City: </label>
+        <select name="city" id="city">
+            <option disabled>choose your city</option>
+            <option value="kiev">Kiev</option>
+            <option value="kharkov" selected>Kharkov</option>
+            <option value="lvov">lvov</option>
+            <option value="odessa">Odessa</option>
+            <option value="melitopol">Melitopol</option>
+        </select>
+        <br>
+
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell us about yourself..."></textarea>
+        <br>
+
+
+        <input type="submit" value="Save">
+    </form>
+
+
+
+</body>
+
+</html>
