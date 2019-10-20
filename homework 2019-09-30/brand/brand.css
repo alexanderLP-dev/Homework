@@ -1,0 +1,53 @@
+
+
+main > ul {
+display:flex;
+flex-direction: column;
+margin-top: 100px;
+
+
+}
+
+main li:nth-of-type(n) {
+    border:none;
+}
+
+main a{
+    display:block;
+    padding: 0;
+    margin: 0; 
+    color:#444; 
+    padding-top: 5px;
+}
+
+main li:first-of-type{
+    font-size: 30px;
+    font-weight: 700;
+    transition:0s;
+}
+
+main li:first-of-type::before{
+    content:"";
+    display:block;
+    height: 1px;
+    background-color:#000;
+}
+
+main li:last-of-type{
+    border-bottom:1px solid #000;
+    
+}
+
+main a:hover{
+    border-bottom:1px solid black;
+    color:#999;
+    background: none;
+}
+
+main li:last-of-type:hover{
+    border:none;
+}
+
+
+
+

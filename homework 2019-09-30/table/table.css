@@ -1,0 +1,45 @@
+
+table{
+    border:1px solid black;
+    border-spacing:0;
+    margin: 100px auto;
+    
+    
+}
+
+thead{
+    background: #444444;
+    color:#fff;
+    font-weight: bold;
+   
+}
+
+thead td:nth-last-of-type(1){
+     text-align: center;
+}
+
+
+td{
+    border:1px solid black;
+    padding:5px 20px;
+}
+
+tr:nth-of-type(even){
+    background:#DCDCDC;
+    padding:5px 10px;
+}
+
+td:nth-of-type(3),
+td:nth-of-type(4){
+    text-align: center;
+}
+
+td:nth-child(-n+2){
+    padding: 5px 20px;
+}
+
+td:last-of-type{
+    text-align: right;
+
+}
+
