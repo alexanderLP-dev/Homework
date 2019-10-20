@@ -1,0 +1,23 @@
+.container{
+    width: 80%;
+    margin: 10% auto;
+    box-shadow: 0 0 15px;
+    padding: 5%;
+}
+
+.wrapper{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.article p{
+    padding-right: 5%;
+   
+
+}
+img{
+    width: 90%;
+    
+}

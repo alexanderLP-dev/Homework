@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2::after{
+    content:"";
+    display:block;
+    height: 1px;
+    background: #D6EEF2;
+}
+
+.container{
+    max-width: 90vw;
+    margin: 0 auto; 
+    font-family:sans-serif;
+    background:linear-gradient(45deg,#ccc,#D3F1FA) ;
+    padding: 3%; 
+    border-radius:5px;
+}
+
+input,textarea,select,.style-label::before{    
+    border-radius:6px;
+    background: linear-gradient(to bottom, #D6EEF2 , #fff);
+    box-shadow:inset 2px 2px 5px ;
+    outline:none;
+}
+
+input{
+    padding: 5px;
+}
+
+option{
+    
+    background: #D6EEF2 ;
+    border-radius:0 0 6px 6px;
+}
+
+form{
+    margin: 0 auto;
+
+}
+
+span{
+    color:red;
+}
+
+p{
+    margin-top: 0;
+    margin-left: 0.5em;
+}
+
+.md{
+    width: 100%;
+}
+
+.no-margin{
+    margin-left: 0;
+}
+
+.input-helper{
+    min-width: 45%;
+    display:flex;
+    flex-direction: column;
+    margin: 0.1em;
+}
+
+::placeholder,input,select{
+    padding: 0.2em;
+}
+
+label{
+    width: 30%;
+    float:left;
+    display:flex;
+    margin-right: 1em;
+}
+
+.input-right{
+    display:flex;
+}
+
+.clock{
+    display:flex;
+    align-self: space-between;
+    margin-left: 33%;
+}
+
+.hours{
+    display:flex;
+}
+
+.hours select{
+    margin-left: 5%;
+    margin-top: 0.1em;
+    height: 2em;
+}
+
+.radio-block{
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.departure{
+    display:flex;
+}
+
+
+.all{
+    max-width: 80%;
+    margin: 1em auto;
+    display:flex;
+    
+}
+
+input[type="radio"]{
+    display:none;
+    
+}
+
+.style-label{
+    width: 100%;
+}
+
+
+
+.style-label::before{
+    content:"";
+    display:inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius:50%;
+    margin: 1% 1% 1% 0;
+    cursor:pointer;
+    background: #fff;
+    text-align: center;
+    
+}
+
+input[type="radio"]:checked + .style-label::before{
+    background:url(icon/tick.png);
+    background-color: #fff;
+    border:none;
+    transition:0.5s;
+    
+}
+
+.box small{
+    width: 100%;
+    display:inline-block;
+    align-self:center;
+      
+}
+
+.arrival input[type="number"]{
+    display:none;
+}
+
+textarea{
+    padding:10px;
+    
+}
+
+.submit-btn{
+    display:flex;
+}
+
+input[type="submit"]{
+    margin: 0 auto;
+    border:1px solid #D85D00;
+    border-radius:10px;
+    background: linear-gradient(to top,#D85D00, #FAA018 );
+    box-shadow:2px 2px 5px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    border:1px solid #12FA0A;
+    background: linear-gradient(to top,#00FA19, #A0FA9D );
+}
+
+input[type="submit"]:active{
+    box-shadow:none;
+}
+
+
+@media (max-width:768px) and (max-width:992px){
+
+    .all{
+        flex-flow:wrap;
+        width: 100%;
+    }
+
+    input{
+        padding: 5px;
+    }
+
+    .radio-block{
+        display:flex;
+        width: 100%;
+    }
+
+    textarea{
+        width: 70%;
+    }
+}
+
+@media (max-width:521px) and (max-width:769px){
+
+
+    .arrival input[type="number"]{
+        display:none;
+    }
+
+    input{
+        padding: 5px;
+    }
+
+    .all label,span{
+        display:inline;
+    }
+
+}
+
+@media  (min-width:320px) and (max-width:520px){
+    
+    *{
+        display:block;
+        width:100%;
+    }
+
+    input{
+        padding: 5px;
+    }
+
+    .all {
+        width: 100%;
+        display:block;    
+    }
+
+    .long{
+        width: 100%;
+    }
+
+    .clock{
+        width: 100%;
+        display:flex;
+        flex-direction:row wrap;
+        margin: 0 auto;    
+    }
+
+    input[type="date"]{
+        height: 24px;
+    }
+
+    .hours{
+        width: 100%;
+        display:flex;
+        flex-flow:wrap;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+.container{
+    display:block;
+    width: 90%;
+    margin: 10% auto;
+    box-shadow: 0 0 15px;
+    padding: 5%;  
+}
+
+.main{
+    display:flex; 
+    flex-flow:wrap;
+}
+
+.article{
+    width:25% ;
+    float: left;
+}
+
+.article p{
+    width: 90%;
+}
+
+.text-left{
+    max-width: 20%;
+    max-height: 400px;
+    float:left;
+    margin: 0 1%;
+    overflow-y: auto;
+}
+
+img{
+    width: 80%;   
+}
