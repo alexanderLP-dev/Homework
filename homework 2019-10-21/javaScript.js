@@ -5,10 +5,10 @@
 // var x = +parseInt(prompt("Введите x", "1 "));
 // var y = +parseInt(prompt("Введите y", "1 "));
 
-var x = +prompt("Введите x", "1");
-var y = +prompt("Введите y", "1");
+// var x = +prompt("Введите x", "1");
+// var y = +prompt("Введите y", "1");
 
-alert("Сумма:" + (x + y));
+// alert("Сумма:" + (x + y));
 
 //задача 2
 
@@ -20,7 +20,7 @@ alert("Сумма:" + (x + y));
 //   two = one * 3,
 //   three = one + two;
 
-// document.write(one, two, three);
+// console.log(one, two, three);
 
 //задача 3
 
@@ -77,19 +77,11 @@ alert("Сумма:" + (x + y));
 //   kibi = BITE ** 2 * insert,
 //   gigi = BITE ** 0 * insert;
 // alert(
-//   "В одном Гигабайте : " +
-//     "\n" +
-//     gigi +
-//     " гигабайт" +
-//     "\n" +
-//     mebi +
-//     " мебибайт" +
-//     "\n" +
-//     kibi +
-//     " кибибайт" +
-//     "\n" +
-//     bite +
-//     " байт"
+//   `В одном Гигабайте :
+//     ${gigi} гигабайт
+//     ${mebi} мебибайт
+//     ${kibi} кибибайт
+//     ${bite} байт`
 // );
 
 //задача 7
