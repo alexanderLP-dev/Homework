@@ -303,22 +303,21 @@
 // Исправить код
 
 // debugger;
-var x = +prompt("x", 0);
-var error = null;
+// var x = +prompt("x", 0);
+// var error = null;
 
-switch (x) {
-  case 0:
-    error = "на ноль делить нельзя";
-    break;
-  case 1:
-    error = "На единицу делить бессмысленно";
-    break;
-    
+// switch (x) {
+//   case 0:
+//     error = "на ноль делить нельзя";
+//     break;
+//   case 1:
+//     error = "На единицу делить бессмысленно";
+//     break;
 
-}
+// }
 
-if ( error ){
-  alert(error);
-} else {
-  alert(100 / x);
-}
+// if ( error ){
+//   alert(error);
+// } else {
+//   alert(100 / x);
+// }
