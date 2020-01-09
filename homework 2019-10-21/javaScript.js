@@ -21,7 +21,7 @@
 //   three = one + two;
 
 // console.log(one, two, three);
-
+//
 //задача 3
 
 // Создайте переменные firstName и lastName для хранение имени и фамилии,
